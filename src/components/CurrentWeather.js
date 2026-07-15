@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiDroplets, FiWind, FiEye } from 'react-icons/fi';
+import { FiDroplet, FiWind, FiEye } from 'react-icons/fi';
 
 function CurrentWeather({ data }) {
   if (!data) return null;
@@ -35,7 +35,7 @@ function CurrentWeather({ data }) {
         <div className="grid grid-cols-3 gap-8">
           {/* Humidity */}
           <div className="flex flex-col items-center">
-            <FiDroplets size={32} className="mb-2" />
+            <FiDroplet size={32} className="mb-2" />
             <div className="text-sm text-gray-300">Humidity</div>
             <div className="text-2xl font-semibold">{humidity}%</div>
           </div>
