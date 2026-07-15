@@ -5,7 +5,8 @@ import CurrentWeather from './components/CurrentWeather';
 import Forecast from './components/Forecast';
 import './App.css';
 
-const API_KEY = 'your-openweathermap-api-key';
+const API_KEY ='bd55ab25501512db3fbe773dffc51568
+    ';
 
 function App() {
   const [city, setCity] = useState('London');
