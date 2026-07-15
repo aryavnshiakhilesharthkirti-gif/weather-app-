@@ -1,0 +1,23 @@
+.App {
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.App.light {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App.dark {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 0 12px;
+  }
+}
